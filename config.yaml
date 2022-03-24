@@ -1,0 +1,6 @@
+Action: train
+download_data : No
+train_config: {'batch_size':60,'num_epochs':1,'seq_len':150}
+book_data_path: '/home/student/Project/data/books_data.csv'
+model_path: '/home/student/Project/models/bert_finetune_bert_very_weak_scheduler_3e-5'
+#text: '/home/student/Project/data/garbage.txt'
